@@ -5,16 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub</title>
+    <!-- inpage or internal CSS -->
+    <style>
+      body{
+        background-color: rgb(109, 107, 197);
+      }
+      p{
+        font-size: 35px;
+        margin: auto;
+      }
+      h1{
+        color: rgba(240, 248, 255, 0.931);
+      }
+      table{
+        background-color:white;
+        padding: 20px;
+        border:5px solid  rgb(31, 29, 165);
+        border-radius: 25px;
+        width: auto;
+        margin:auto;
+      }
+      td{
+        padding: 30px;
+      }
+    </style>
 </head>
-
-<body style="background-color: rgb(212, 116, 221); text-align: center;">
-    <h1 style="text-decoration:underline;">My Profile</h1>
-        <img style=" border:5px solid black; border-radius: 100px;margin: auto;
-  display: block;" src="Vikas.jpg" alt="Vikas">
-            <p style="font-size: 30px;"><b> Name: </b>Vikas Kumar Gond</p>
-            <p style="font-size: 30px;"><b>Branch: </b>CSE</p>
-            <p style="font-size: 30px;"><b>Roll No: </b>2006116</p>
-          <p  style="font-size: 30px;"><b>Batch: </b>2020-2024</p>
-        <footer style="text-align: center; background-color: rgba(222, 231, 231, 0.89); border: 4px solid rgb(8, 105, 105);margin-top: 130px;border-radius: 25px;padding:16px 20px 16px 20px ;font-size: 22px;font-weight: bolder;color: rgb(39, 44, 44);display: flex;">&copy;This Web Page is made by Vikas Kumar Gond,2006116 Under Web Technology CSL-3403 Lab</footer>
+<body>
+  <!-- inline  CSS with style within tags -->
+    <h1 style=" text-align: center;text-decoration:underline;">My Profile</h1>
+           <table>
+             <tr>
+               <td><img style=" border:5px solid black; border-radius: 100px;margin: auto;
+                 display: block;" src="Vikas.jpg" alt="Vikas"></td>
+                <td><p><b>Name: </b>Vikas Kumar Gond</p>
+                 <p><b>Roll: </b>2006116</p>
+                 <p><b>Branch: </b>CSE</p>
+                <p><b>Batch: </b>2020-2024</p></td>
+             </tr>  
+           </table>
+        <footer style="text-align: center; background-color: rgba(240, 248, 255, 0.931); border: 5px solid rgb(31, 29, 165);margin-top: 130px;border-radius: 25px;padding:16px 20px 16px 20px ;font-size: 22px;font-weight: bolder;color: rgb(39, 44, 44);">&copy;This Web Page is made by Vikas Kumar Gond,2006116 Under Web Technology CSL-3403 Lab</footer>
 </body>
 </html>
